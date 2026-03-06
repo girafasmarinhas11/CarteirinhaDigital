@@ -32,6 +32,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,7 +41,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             CarteirinhaDigitalTheme {
                 Scaffold { innerPadding ->
-
                     CarteirinhaDigital(
                         modifier = Modifier.padding(paddingValues = innerPadding)
                     )
@@ -171,3 +171,33 @@ fun CarteirinhaDigital(modifier: Modifier = Modifier) {
         }
     }
 }
+
+
+
+@Preview(
+    showBackground = true,
+    showSystemUi = true
+)
+@Composable
+fun PreviewCarteirinhaClaro(){
+    CarteirinhaDigitalTheme(darkTheme = false){
+        CarteirinhaDigital(
+            modifier = Modifier.padding(all = 16.dp)
+        )
+    }
+}
+
+@Preview(
+    showBackground = true,
+    showSystemUi = true
+)
+
+@Composable
+fun PreviewCarteirinhaEscuro(){
+    CarteirinhaDigitalTheme(darkTheme = true) {
+        CarteirinhaDigital(
+            modifier = Modifier.padding(all = 16.dp)
+        )
+    }
+}
+

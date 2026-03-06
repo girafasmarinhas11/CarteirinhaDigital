@@ -9,6 +9,7 @@ import androidx.core.graphics.createBitmap
 
 import android.graphics.Bitmap
 import android.graphics.Color
+import com.example.carteirinhadigital.gerarQrCode
 import com.google.zxing.BarcodeFormat
 import com.google.zxing.EncodeHintType
 import com.google.zxing.qrcode.QRCodeWriter
