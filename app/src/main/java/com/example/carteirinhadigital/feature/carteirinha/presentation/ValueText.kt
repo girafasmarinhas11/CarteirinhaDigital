@@ -1,4 +1,4 @@
-package com.example.carteirinhadigital
+package com.example.carteirinhadigital.feature.carteirinha.presentation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
