@@ -82,7 +82,7 @@ private val darkScheme = darkColorScheme(
 )
 
 @Composable
-fun CarterinhaDigitalTheme(
+fun CarteirinhaDigitalTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable() () -> Unit
 ) {
