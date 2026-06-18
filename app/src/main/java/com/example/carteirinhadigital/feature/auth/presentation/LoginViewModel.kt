@@ -66,7 +66,7 @@ class LoginViewModel(
 
             result
                 .onSuccess { usuario ->
-                    _uiState.update {
+                    _uiState.update {/*ddd*/
                         it.copy(
                             isLoading = false,
                             usuarioLogado = usuario,
