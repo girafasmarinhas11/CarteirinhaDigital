@@ -1,7 +1,6 @@
 package com.example.carteirinhadigital.feature.unidadecurricular.domain.model
 
-class UnidadeCurricular(
-) {
+data class UnidadeCurricular(
     val id: String,
     val nome: String,
     val professor: String,
@@ -9,4 +8,4 @@ class UnidadeCurricular(
     val nota2: Double,
     val media: Double,
     val faltas: Int
-}
+)

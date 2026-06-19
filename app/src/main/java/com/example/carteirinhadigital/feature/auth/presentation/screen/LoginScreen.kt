@@ -33,7 +33,7 @@ fun LoginScreen(
         topBar = {
             AppTopBar(
                 title = "Login",
-                subtitle = "Acesse sua carteirinha digital"
+                subtitle = "Acesse carteirinha digital!"
             )
         }
     ) { innerPadding ->

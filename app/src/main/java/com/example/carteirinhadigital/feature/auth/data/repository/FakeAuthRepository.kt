@@ -8,12 +8,12 @@ class FakeAuthRepository : AuthRepository {
     override suspend fun login(login: String, senha: String): Result<UsuarioLogado> {
         delay(1000)
 
-        return if (login.trim() == "david" && senha == "24247656") {
+        return if (login.trim() == "sebas" && senha == "senha123") {
             Result.success(
                 UsuarioLogado(
                     id = "1",
-                    nome = "David Souza Santos",
-                    token = "token-david"
+                    nome = "Sebastian",
+                    token = "token-sebas"
                 )
             )
         } else {

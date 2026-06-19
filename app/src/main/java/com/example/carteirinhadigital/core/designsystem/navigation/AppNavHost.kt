@@ -20,6 +20,8 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import com.example.carteirinhadigital.core.designsystem.component.AppDrawerItem
 import com.example.carteirinhadigital.core.session.LoggedUser
 import com.example.carteirinhadigital.feature.auth.presentation.screen.LoginScreen
+import com.example.carteirinhadigital.feature.carteirinha.presentation.screen.CarteirinhaScreen
+import com.example.carteirinhadigital.feature.home.presentation.screen.HomeScreen
 
 @Composable
 fun AppNavHost(
