@@ -38,6 +38,10 @@ android {
 }
 
 dependencies {
+    // Para projetos que usam o Material 2 (seu caso, pelo import androidx.compose.material)
+    implementation("androidx.compose.material:material-icons-extended")
+
+    implementation("androidx.compose.material:material-icons-extended")
     implementation("com.google.zxing:core:3.5.4")
     implementation(platform("androidx.compose:compose-bom:2026.02.00"))
     implementation("androidx.compose.ui:ui-text-google-fonts")
